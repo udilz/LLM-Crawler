@@ -1,0 +1,7 @@
+### GET LINKS
+POST http://localhost:3000/api/links
+Content-Type: application/json
+
+{
+    "domain": "linkedin.com"
+}
