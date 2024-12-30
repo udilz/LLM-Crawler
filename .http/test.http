@@ -3,5 +3,22 @@ POST http://localhost:3000/api/links
 Content-Type: application/json
 
 {
-    "domain": "linkedin.com"
+    "domain": "https://devscale.id"
+}
+
+### GET CONTENTS
+POST http://localhost:3000/api/content
+Content-Type: application/json
+
+{
+    "domain": "https://devscale.id"
+}
+
+
+### GET AI
+POST http://localhost:3000/api/ai
+Content-Type: application/json
+
+{
+    "domain": "https://devscale.id"
 }

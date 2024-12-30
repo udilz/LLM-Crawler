@@ -27,5 +27,6 @@ export async function getLinks(domain: string) {
     return proccesedLink;
   } catch (error) {
     console.log(error);
+    return []
   }
 }
